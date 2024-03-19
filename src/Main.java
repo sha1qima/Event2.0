@@ -20,7 +20,7 @@ public class Main {
             System.out.println("Type 10 to QUIT:" + "\n");
             choice=reader.nextInt();
             event.organizeEvent(choice);
-        }while(choice == 10);
+        }while(choice != 10);
     reader.close();
     }
 }
